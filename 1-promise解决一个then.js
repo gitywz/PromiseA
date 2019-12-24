@@ -7,6 +7,7 @@ class Promise {
 
         //=>成功和失败执行的方法
         let resolve = result => {
+
             let timer = setTimeout(() => {
                 clearTimeout(timer);
                 if (this.status !== 'pending') return;
