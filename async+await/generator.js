@@ -18,7 +18,7 @@ console.log([
     2: 3,
     length: 3,
     [Symbol.iterator]: function* () {
-      yield 1, yield 2, yield 3
+      yield 14, yield 25, yield 36
     }
   }
 ])
